@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: wil42
-          image: wil42:1@sha256:7a8d601dc95973332117529363c5e76399ac85167f6ffb01a9d8a2e03b6ae299
+          image: wil42/playground:v1
           ports:
             - containerPort: 8888
